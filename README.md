@@ -32,7 +32,7 @@ Este projeto apresenta uma solução de Business Intelligence sobre o histórico
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/dashboard-formula1-powerbi.git
+git clone https://github.com/mikaiassantos/etl-powerbi-f1
 cd dashboard-formula1-powerbi
 ```
 
