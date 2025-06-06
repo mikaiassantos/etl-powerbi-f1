@@ -1,6 +1,6 @@
 # 🏎️ Análise de Desempenho na Fórmula 1 – Power BI + ETL com Python
 
-Este projeto apresenta uma solução completa de Business Intelligence sobre o histórico da Fórmula 1, utilizando um pipeline de ETL desenvolvido em Python e um dashboard interativo no Power BI. A análise abrange dados oficiais de corridas, pilotos e montadoras, organizados em uma modelagem dimensional otimizada para extração de insights estratégicos.
+Este projeto apresenta uma solução de Business Intelligence sobre o histórico da Fórmula 1, utilizando um pipeline de ETL desenvolvido em Python e um dashboard interativo no Power BI. A análise abrange dados oficiais de corridas, pilotos e montadoras, organizados em uma modelagem dimensional otimizada para extração de insights estratégicos.
 
 ---
 
