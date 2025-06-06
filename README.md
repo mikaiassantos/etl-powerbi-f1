@@ -27,3 +27,77 @@ Este projeto apresenta uma solução de Business Intelligence sobre o histórico
 | Organização  | Git + GitHub     |
 
 ---
+## 🛠️ Execução do ETL
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/dashboard-formula1-powerbi.git
+cd dashboard-formula1-powerbi
+```
+
+2. Crie e ative o ambiente virtual:
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+3. Instale os requisitos:
+
+```bash
+pip install -r etl/requirements.txt
+```
+
+4. Execute o script principal:
+
+```bash
+python etl/main.py
+```
+
+✔️ Os arquivos `.xlsx`  tratados serão gerados automaticamente na pasta:  
+```bash
+etl/saida/
+```
+
+---
+
+## 📊 Dashboard Power BI
+
+O arquivo `.pbix` está disponível na raiz do projeto:
+
+```bash
+dashboard_f1.pbix
+```
+
+Recomendo abrir com o **Power BI Desktop atualizado**.  
+
+---
+
+## 📂 Estrutura do Repositório
+
+```
+├── etl/
+│   ├── main.py               # Pipeline ETL completo
+│   ├── requirements.txt      # Dependências do projeto
+│   └── saida/                # Dados transformados (Excel)
+├── dashboard_f1.pbix         # Arquivo Power BI finalizado
+├── README.md                 # Documentação principal
+```
+
+---
+
+## 📷 Preview do Dashboard
+
+```markdown
+![Dashboard Preview](./img/dashboard_preview.png)
+```
+
+---
+
+## 👨‍💻 Autor
+
+**Mikaias Santos**  
+Analista de Dados | Recife - PE  
+Análise e Desenvolvimento de Sistemas  
+📧 Contato: mikaiassantos28@gmail.com  
